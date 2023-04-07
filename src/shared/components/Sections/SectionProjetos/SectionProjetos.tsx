@@ -1,8 +1,10 @@
-import { Description } from "../../Dialog/Description";
-import { Projects } from "./Projects";
+import { useTranslation } from "react-i18next";
 
 import "./projects.scss";
-import { useTranslation } from "react-i18next";
+import "./Projetos/tools/tools.scss"
+
+import { Description } from "../../Dialog/Description";
+import { ProjetoArtesMaciais } from "./Projetos/ProjetoArtesMarciais";
 
 export function SectionProjetos() {
   const { t } = useTranslation();
@@ -18,7 +20,11 @@ export function SectionProjetos() {
         subtitle={t("ProjectsSectionSubtitle")}
         p=""
       />
-      <Projects />
+      
+      <div className="projects">
+        <ProjetoArtesMaciais />
+        <ProjetoArtesMaciais />
+      </div>
     </section>
   );
 }

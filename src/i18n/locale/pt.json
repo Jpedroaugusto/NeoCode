@@ -1,4 +1,11 @@
 {
+  "LinkHeaderNeocode": "Neocode",
+  "LinkHeaderTeam": "Equipe",
+  "LinkHeaderServices": "Serviços",
+  "LinkHeaderProjects": "Projetos",
+  "LinkHeaderContact": "Contato",
+  "LinkHeaderBlog": "Blog",
+
   "Welcome": "Soluções e serviços em software",
 
   "NeocodeSectionTitle": "O que é a NeoCode",

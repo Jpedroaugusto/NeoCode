@@ -1,6 +1,11 @@
 @font-face {
   font-family: "OpenSans";
-  src: url("../../public/fonts/OpenSans-Regular.ttf");
+  src: url("./fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Regular.ttf");
 }
 
 * {
@@ -10,7 +15,6 @@
   box-sizing: border-box;
   font-family: "OpenSans";
 }
-
 
 button {
   width: 10em;
