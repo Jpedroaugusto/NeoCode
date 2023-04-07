@@ -1,0 +1,32 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 10px black;
+  width: 100%;
+
+  padding: 60px 0px;
+  gap: 15px;
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+
+  p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+
+    text-align: center;
+    line-height: 1.4rem;
+    width: 28em;
+  }
+}

@@ -1,0 +1,37 @@
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+
+  div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+    transition: 0.2s all;
+  }
+}
+
+@media (max-width: 899px) {
+  .logo-mobile {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: block;
+    transition: 0.2s all;
+  }
+}
+
+.mobile-menu.active {
+  .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+
+  .line2 {
+    opacity: 0;
+  }
+
+  .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Welcome": "Soluções e serviços em software",
+
+  "NeocodeSectionTitle": "O que é a NeoCode",
+  "NeocodeSectionSubtitle": "sobre",
+  "NeocodeSectionParagraph": "Oferecemos soluções de software personalizadas em saúde, finanças, varejo e manufatura com tecnologias emergentes, ética e transparência, visando a satisfação do cliente através da inovação e qualidade.",
+
+  "CardPurposeTitle": "Nosso propósito",
+  "CardPurposeParagraph": "Desenvolver soluções digitais personalizadas para empresa, incluindo desktop, móvel, nuvem, banco de dados, análise de dados e segurança cibernética",
+
+  "CardVisionTitle": "Nossa visão",
+  "CardVisionParagraph": "Ser líder no desenvolvimento de soluções tecnológicas inovadoras que transformam negócios, usando IA, aprendizado de máquina, blockchain e nuvem.",
+
+  "CardValuesTitle": "Nossa valores",
+  "CardValuesParagraph": "O que guia nossa cultura empresarial é: Inovação, Qualidade, Transparência, Ética e Foco no Cliente.",
+
+  "TeamSectionTitle": "Nosso time",
+  "TeamSectionSubtitle": "Equipe",
+  "TeamSectionParagraph": "Nossa equipe de desenvolvimento é motivada, apaixonada e colaborativa, sempre buscando novas tecnologias para criar soluções inovadoras e de qualidade excepcional.",
+
+  "ServicesSectionTitle": "O que oferecemos",
+  "ServicesSectionSubtitle": "Serviços",
+  "ServicesSectionParagraph": "Descubra nossos serviços personalizados que oferecem soluções tecnológicas eficazes para atender às necessidades específicas de sua empresa.",
+
+  "ProjectsSectionTitle": "O que já desenvolvemos",
+  "ProjectsSectionSubtitle": "Projetos",
+  "ProjectsSectionParagraph": "",
+
+  "ProjectTools": "Ferramentas",
+  "ButtonReadMore": "Ler mais",
+  "ButtonReadLess": "Ler menos",
+
+  "ProjectTitle1": "clube de membros",
+  "ProjectSubtitle1": "sistema web",
+  "ProjectParagraph1": "Descubra nossos serviços personalizados que oferecem soluções tecnológicas eficazes para atender às necessidades específicas de sua empresa.",
+  
+  "ProjectTitle2": "Artes Marciais",
+  "ProjectSubtitle2": "Projetos",
+  "ProjectParagraph2": "Descubra nossos serviços personalizados que oferecem soluções tecnológicas eficazes para atender às necessidades específicas de sua empresa.",
+
+  "ContactSectionTitle": "Fale com a gente",
+  "ContactSectionSubtitle": "Contato",
+  "ContactSectionParagraph": "Entre em contato conosco agora: preencha o formulário abaixo para falar diretamente com nossa equipe.",
+
+  "InputName": "Nome",
+  "InputEmail": "Email",
+  "InputNumber": "Número",
+  "InputMessage": "Mensagem",
+  "InputButton": "Enviar",
+
+  "FooterDescription": "Todos os direitos reservados."
+}

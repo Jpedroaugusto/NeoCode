@@ -1,0 +1,52 @@
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  padding: 1rem;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    gap: 10px;
+
+    width: 20.1875em;
+    height: 20.8125em;
+
+    border: 1px solid #977ced;
+    border-radius: 5px;
+
+    transition: 0.2s all;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: #977ced 0px 0px 12px;
+      transform: scale(1.01);
+    }
+
+    h1 {
+      font-size: 1.4em;
+      text-align: center;
+
+      color: #120736;
+    }
+
+    p {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.1rem;
+      text-align: center;
+
+      color: #24292e;
+    }
+    .icon {
+      width: 6.25em;
+      height: 6.25em;
+    }
+  }
+}

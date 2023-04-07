@@ -1,0 +1,52 @@
+{
+  "Welcome": "Software solutions and services",
+
+  "NeocodeSectionTitle": "What is NeoCode",
+  "NeocodeSectionSubtitle": "upon",
+  "NeocodeSectionParagraph": "We offer customized software solutions in healthcare, finance, retail and manufacturing with emerging technologies, ethics and transparency, aiming at customer satisfaction through innovation and quality.",
+
+  "CardPurposeTitle": "Our purpose",
+  "CardPurposeParagraph": "Develop customized digital solutions for business, including desktop, mobile, cloud, database, data analytics and cybersecurity.",
+
+  "CardVisionTitle": "Our vision",
+  "CardVisionParagraph": "To be a leader in the development of innovative technological solutions that transform businesses, using AI, machine learning, blockchain and cloud.",
+  
+  "CardValuesTitle": "Our values",
+  "CardValuesParagraph": "What guides our corporate culture is: Innovation, Quality, Transparency, Ethics and Customer Focus.",
+
+  "TeamSectionTitle": "Our team",
+  "TeamSectionSubtitle": "Team",
+  "TeamSectionParagraph": "Our development team is motivated, passionate and collaborative, always looking for new technologies to create innovative solutions of exceptional quality.",
+
+  "ServicesSectionTitle": "What we offer",
+  "ServicesSectionSubtitle": "Services",
+  "ServicesSectionParagraph": "Discover our customized services that offer effective technological solutions to meet the specific needs of your company.",
+
+  "ProjectsSectionTitle": "What we have already developed",
+  "ProjectsSectionSubtitle": "Projects",
+  "ProjectsSectionParagraph": "",
+
+  "ButtonReadMore": "Read more",
+  "ButtonReadLess": "Read less",
+  "ProjectTools": "Tools",
+
+  "ProjectTitle1": "Marketplace",
+  "ProjectSubtitle1": "web system",
+  "ProjectParagraph1": "Descubra nossos serviços personalizados que oferecem soluções tecnológicas eficazes para atender às necessidades específicas de sua empresa.",
+  
+  "ProjectTitle2": "Martial Arts",
+  "ProjectSubtitle2": "web system",
+  "ProjectParagraph2": "Descubra nossos serviços personalizados que oferecem soluções tecnológicas eficazes para atender às necessidades específicas de sua empresa.",
+
+  "ContactSectionTitle": "Talk to us",
+  "ContactSectionSubtitle": "Contact",
+  "ContactSectionParagraph": "Contact us now: fill out the form below to speak directly with our team.",
+
+  "InputName": "Name",
+  "InputEmail": "Email",
+  "InputNumber": "Phone",
+  "InputMessage": "Message",
+  "InputButton": "Send",
+
+  "FooterDescription": "All rights reserved."
+}

@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../public/fonts/OpenSans-Regular.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "OpenSans";
+}
+
+
+button {
+  width: 10em;
+  border-radius: 8px;
+  color: white;
+  border: 1px solid transparent;
+  padding: 0.3em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+body {
+  background-color: #0e0f16;
+  overflow-x: hidden;
+  color: #ffffff;
+}
+
+.ico {
+  &--social {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  background-color: #454b50bf;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #533e83;
+}

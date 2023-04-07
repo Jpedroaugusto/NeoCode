@@ -1,0 +1,59 @@
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+
+  h1 {
+    font-family: "Montserrat";
+    width: 10em;
+    font-weight: 400;
+    font-size: 3.4rem;
+    line-height: 5rem;
+    text-align: center;
+  }
+
+
+  a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 3em;
+      line-height: 50px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.8em;
+      line-height: 40px;
+    }
+
+    a {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}
+
+@keyframes animation {
+  to {
+    width: 0em;
+  }
+
+  from {
+    width: 10em;
+  }
+}
