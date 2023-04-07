@@ -1,5 +1,4 @@
 import { Description } from "../../Dialog/Description";
-import { Carousel } from "./Carousel";
 import "./team.scss";
 
 import { useTranslation } from "react-i18next";

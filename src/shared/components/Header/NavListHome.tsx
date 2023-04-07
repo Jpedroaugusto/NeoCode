@@ -1,32 +1,41 @@
 import Link from "./Link";
+import { MouseEvent } from "react";
 
 export default function NavListHome() {
-  function getDistanceFromTheTop(element) {
+  function getDistanceFromTheTop(element: HTMLAnchorElement) {
     const id = element.getAttribute("href");
-    return document.querySelector(id).offsetTop;
+    const target = document.querySelector<HTMLElement>(id!);
+    if (target) {
+      return target.offsetTop;
+    }
+    return 0;
   }
 
   let click = 0;
 
-  function scrollToSection(event) {
+  function scrollToSection(event: MouseEvent<HTMLAnchorElement>) {
     event.preventDefault();
     click++;
-    const distanceFromTheTop = getDistanceFromTheTop(event.target) - 70;
+    const distanceFromTheTop =
+      getDistanceFromTheTop(event.currentTarget as HTMLAnchorElement) - 70;
     if (click == 1) {
       smoothScrollTo(0, distanceFromTheTop, 1400);
     }
   }
 
-  function smoothScrollTo(endX, endY, duration) {
+  function smoothScrollTo(endX: number, endY: number, duration: number = 400) {
     const startX = window.scrollX || window.pageXOffset;
     const startY = window.scrollY || window.pageYOffset;
     const distanceX = endX - startX;
     const distanceY = endY - startY;
     const startTime = new Date().getTime();
 
-    duration = typeof duration !== "undefined" ? duration : 400;
-
-    const easeInOutQuart = (time, from, distance, duration) => {
+    const easeInOutQuart = (
+      time: number,
+      from: number,
+      distance: number,
+      duration: number
+    ) => {
       if ((time /= duration / 2) < 1) {
         return (distance / 2) * time * time * time * time + from;
       } else {
@@ -51,49 +60,23 @@ export default function NavListHome() {
   return (
     <nav>
       <ul className="nav-list">
+        <Link handleClick={scrollToSection} link="#neocode" legend="neocode" />
+        <Link handleClick={scrollToSection} link="#team" legend="equipe" />
         <Link
-          type="text"
-          behavior={true}
-          onClick={scrollToSection}
-          link="#neocode"
-          legend="neocode"
-        />
-        <Link
-          type="text"
-          behavior={true}
-          onClick={scrollToSection}
-          link="#team"
-          legend="equipe"
-        />
-        <Link
-          type="text"
-          behavior={true}
-          onClick={scrollToSection}
+          handleClick={scrollToSection}
           link="#services"
           legend="serviços"
         />
+        <a onClick={scrollToSection} href="#home">
+          <img alt="logo" src="images/png/LogoNavBar.png" />
+        </a>
         <Link
-          type="image"
-          behavior={true}
-          onClick={scrollToSection}
-          link="#home"
-          src="images/png/LogoNavBar.png"
-        />
-        <Link
-          type="text"
-          behavior={true}
-          onClick={scrollToSection}
+          handleClick={scrollToSection}
           link="#projects"
           legend="projetos"
         />
-        <Link
-          type="text"
-          behavior={true}
-          onClick={scrollToSection}
-          link="#contact"
-          legend="contato"
-        />
-        <Link type="text" link="/blog" legend="blog" behavior={true} />
+        <Link handleClick={scrollToSection} link="#contact" legend="contato" />
+        <Link handleClick="" link="/blog" legend="blog" />
       </ul>
     </nav>
   );

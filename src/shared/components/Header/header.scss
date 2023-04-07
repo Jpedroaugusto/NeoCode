@@ -36,9 +36,8 @@ header {
     
     .nav-list {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
-      gap: 3rem;
       
       li {
         display: flex;
@@ -90,6 +89,7 @@ header {
     width: 50vw;
     height: 90vh;
     
+    justify-content: space-around;
     position: absolute;
     top: 12.6vh;
     right: 0px;

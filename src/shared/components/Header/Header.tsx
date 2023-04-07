@@ -1,12 +1,15 @@
 import MobileMenu from "../Dialog/MobileMenu";
 import "./header.scss";
 import NavListHome from "./NavListHome";
-import NavListBlog from "./NavListBlog";
 
-export function Header({ pag }) {
+type HeaderProps = {
+  pag: string;
+};
+
+export function Header({ pag }: HeaderProps) {
   window.addEventListener("scroll", () => {
-    const header : HTMLHeadElement | null = document.querySelector("header");
-    if(header) header.classList.toggle("sticky", window.scrollY > 0);
+    const header: HTMLHeadElement | null = document.querySelector("header");
+    if (header) header.classList.toggle("sticky", window.scrollY > 0);
   });
 
   pag = pag.toLowerCase();
@@ -19,12 +22,7 @@ export function Header({ pag }) {
           <MobileMenu />
         </header>
       );
-    case "blog":
-      return (
-        <header>
-          <NavListBlog />
-          <MobileMenu />
-        </header>
-      );
+    default:
+      return <header></header>;
   }
 }
