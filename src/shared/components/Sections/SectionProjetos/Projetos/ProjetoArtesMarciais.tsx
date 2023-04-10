@@ -10,7 +10,11 @@ interface ReadMoreButtonProps {
   buttonText: string;
 }
 
-function ReadMoreButton({ onToggle, readMore, buttonText }: ReadMoreButtonProps) {
+function ReadMoreButton({
+  onToggle,
+  readMore,
+  buttonText,
+}: ReadMoreButtonProps) {
   const handleClick = () => {
     onToggle(!readMore);
   };
@@ -33,12 +37,14 @@ export function ProjetoArtesMaciais() {
 
   return (
     <div className="project">
-      <img src="imagem" alt="imagem" />
+      <div>
+        <img src="/public/images/png/favicon.png" alt="imagem" />
+      </div>
       <div className="project__description">
         <h1>Projeto artes marciais</h1>
         <h2>sistema web</h2>
         <Border width={100} color={"#977CED"} />
-        <div className={`text ${readMore ? 'active' : ''}`}>
+        <div className={`text ${readMore ? "active" : ""}`}>
           <p>
             O projeto Gestão de Artes Marciais é um sistema web desenvolvido
             utilizando as tecnologias e frameworks mais modernos do mercado. Ele

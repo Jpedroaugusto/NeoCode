@@ -1,10 +1,11 @@
 #projects {
   background-color: white;
+  width: 100%;
   
   .projects {
     display: grid;
+    justify-content: center;
     padding: 40px;
     gap: 60px;
-    justify-content: center;
   }
 }

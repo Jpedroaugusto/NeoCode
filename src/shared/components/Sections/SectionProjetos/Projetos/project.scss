@@ -1,24 +1,23 @@
 .project {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 50px;
+  max-width: 1000px;
   flex-wrap: wrap;
-  width: 100%;
-  column-gap: 2vw;
   border-radius: 5px;
-  padding: 5vw;
   background-color: #e5e7ea;
 
   &__description {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 20px;
     text-align: left;
 
-    row-gap: 10px;
-    padding: 20px;
-
     h1 {
-      font-family: "Montserrat";
       font-weight: 400;
       color: #5b3fb8;
       text-transform: uppercase;
@@ -26,7 +25,7 @@
     }
 
     h2 {
-      font-size: 1.2em;
+      font-size: 1em;
       text-transform: uppercase;
       color: #120736;
     }
@@ -57,23 +56,6 @@
 
     .active {
       max-height: 1000px;
-    }
-  }
-}
-
-@media (max-width: 700px) {
-  #projects {
-    .projects {
-      .project {
-        .description-project {
-          display: flex;
-
-          h1 {
-            color: #120736;
-            font-size: 1.2em;
-          }
-        }
-      }
     }
   }
 }

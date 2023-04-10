@@ -17,6 +17,7 @@
     "react-hook-form": "^7.43.9",
     "react-i18next": "^12.2.0",
     "react-router-dom": "^6.9.0",
+    "react-switch": "^7.0.0",
     "sass": "^1.60.0",
     "sweetalert2": "^11.7.3",
     "yup": "^1.0.2"

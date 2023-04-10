@@ -15,14 +15,13 @@ a {
 header {
   width: 100%;
   position: fixed;
-  z-index: 999;
+  z-index: 100;
   display: flex;
   align-items: center;
   background: #1f20325b;
   height: 12vh;
   padding: 40px;
   transition: 0.3s linear;
-  font-family: "Montserrat";
 
   &.sticky {
     background: #1f2032;

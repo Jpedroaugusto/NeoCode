@@ -5,55 +5,35 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-size: cover;
+  background: url('background.jpg');
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   backdrop-filter: blur(5px);
 
   h1 {
-    font-family: "Montserrat";
-    width: 10em;
-    font-weight: 400;
-    font-size: 3.4rem;
-    line-height: 5rem;
+    font: 400 3.4rem/5rem "Montserrat";
     text-align: center;
-  }
+    width: 10em;
 
-
-  a {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #ffffff;
-  }
-
-  @media screen and (max-width: 768px) {
-    h1 {
+    @media (max-width: 768px) {
       font-size: 3em;
       line-height: 50px;
     }
-  }
 
-  @media screen and (max-width: 480px) {
-    h1 {
+    @media (max-width: 480px) {
       font-size: 1.8em;
       line-height: 40px;
     }
+  }
 
-    a {
+  a {
+    font: 700 16px/20px uppercase;
+    color: #ffffff;
+
+    @media (max-width: 480px) {
       font-size: 14px;
       line-height: 18px;
     }
   }
-}
-
-@keyframes animation {
-  to {
-    width: 0em;
-  }
-
-  from {
-    width: 10em;
-  }
-}
+} 

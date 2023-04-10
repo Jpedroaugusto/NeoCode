@@ -1,20 +1,26 @@
+$primary-color: #24292e;
+$primary-border: #e5e7ea33;
+
 footer {
-  background-color: blur(2px);
+  align-items: center;
+  background: $primary-color;
+  border-top: 1px solid $primary-border;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 30px;
-  gap: 10px;
-
-  background: #24292e;
-  border-top: 1px solid #e5e7ea33;
+  row-gap: 10px;
 
   ul {
-    list-style: none;
-    display: flex;
     column-gap: 20px;
+    display: flex;
+    list-style: none;
   }
+
   p {
-    font-size: 0.9em;
+    font-size: 0.7rem;
+
+    @media (min-width: 400px) {
+      font-size: 0.9rem;
+    }
   }
 }
