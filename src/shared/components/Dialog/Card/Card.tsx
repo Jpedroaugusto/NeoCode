@@ -1,9 +1,9 @@
-import { Border } from "./Border";
+import { Border } from "../Border/Border";
 import "./Card.scss";
 
-import CardProps from "../../types/CardProps";
+import CardProps from "../../../types/CardProps";
 
-export function Card({ icon, title, p } : CardProps) {
+export function Card({ icon, title, p }: CardProps) {
   return (
     <div className="card">
       <span className="icon">

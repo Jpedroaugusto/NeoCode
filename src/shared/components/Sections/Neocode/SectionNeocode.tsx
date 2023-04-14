@@ -1,5 +1,5 @@
-import { Card } from "../../Dialog/Card";
-import { Description } from "../../Dialog/Description";
+import { Card } from "../../Dialog/Card/Card";
+import { Description } from "../../Dialog/Description/Description";
 import "./neocode.scss";
 
 import { useTranslation } from "react-i18next";

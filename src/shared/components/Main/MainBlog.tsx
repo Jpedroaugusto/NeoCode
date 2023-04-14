@@ -1,11 +1,11 @@
-import { SectionContato } from "../Sections/SectionContato/SectionContato";
-import { SectionHome } from "../Sections/SectionHome/SectionHome";
+import { SectionContato } from "../Sections/Contato/SectionContato";
+import { SectionHome } from "../Sections/Home/SectionHome";
 // import { SectionPosts } from "../Sections/SectionPosts/SectionPosts";
 
 export function MainBlog() {
   return (
     <main>
-      <SectionHome background="blog" title="Olá"/>
+      <SectionHome background="blog" title="Olá" />
       <SectionContato />
     </main>
   );

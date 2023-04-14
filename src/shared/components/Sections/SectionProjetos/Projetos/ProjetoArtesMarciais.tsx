@@ -1,4 +1,4 @@
-import { Border } from "../../../Dialog/Border";
+import { Border } from "../../../Dialog/Border/Border";
 import { useTranslation } from "react-i18next";
 import tools from "./tools/Tools";
 import "./project.scss";

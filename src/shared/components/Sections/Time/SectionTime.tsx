@@ -1,4 +1,4 @@
-import { Description } from "../../Dialog/Description";
+import { Description } from "../../Dialog/Description/Description";
 import "./team.scss";
 
 import { useTranslation } from "react-i18next";

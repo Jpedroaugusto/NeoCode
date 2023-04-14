@@ -1,4 +1,4 @@
-import MobileMenu from "../Dialog/MobileMenu";
+import MobileMenu from "../Dialog/MobileMenu/MobileMenu";
 import "./header.scss";
 import NavListHome from "./NavListHome";
 

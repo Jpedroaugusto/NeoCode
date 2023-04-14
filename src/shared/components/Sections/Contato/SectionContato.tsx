@@ -1,7 +1,7 @@
 import * as Yup from "yup";
 import "./contato.scss";
 import Swal from "sweetalert2";
-import { Description } from "../../Dialog/Description";
+import { Description } from "../../Dialog/Description/Description";
 import { useTranslation } from "react-i18next";
 
 export function SectionContato() {

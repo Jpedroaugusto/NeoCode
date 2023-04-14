@@ -1,7 +1,7 @@
-import { Border } from "./Border";
+import { Border } from "../Border/Border";
 import "./Description.scss";
 
-import DescriptionProps from "../../types/DescriptionProps";
+import DescriptionProps from "../../../types/DescriptionProps";
 
 export function Description({
   bg,

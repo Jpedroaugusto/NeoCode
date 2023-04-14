@@ -1,10 +1,9 @@
-import { SectionNeocode } from "../Sections/SectionNeocode/SectionNeocode";
-import { SectionTime } from "../Sections/SectionTime/SectionTime";
-import { SectionServicos } from "../Sections/SectionServiços/SectionServicos";
-import { SectionContato } from "../Sections/SectionContato/SectionContato";
+import { SectionNeocode } from "../Sections/Neocode/SectionNeocode";
+import { SectionTime } from "../Sections/Time/SectionTime";
+import { SectionServicos } from "../Sections/Serviços/SectionServicos";
+import { SectionContato } from "../Sections/Contato/SectionContato";
 import { SectionProjetos } from "../Sections/SectionProjetos/SectionProjetos";
-import { SectionHome } from "../Sections/SectionHome/SectionHome";
-
+import { SectionHome } from "../Sections/Home/SectionHome";
 
 import { useTranslation } from "react-i18next";
 

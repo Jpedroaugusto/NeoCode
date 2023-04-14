@@ -1,4 +1,4 @@
-import { Border } from "../../../Dialog/Border";
+import { Border } from "../../../Dialog/Border/Border";
 import { useTranslation } from "react-i18next";
 import tools from "./tools/Tools";
 import "./project.scss";
@@ -10,7 +10,11 @@ interface ReadMoreButtonProps {
   buttonText: string;
 }
 
-function ReadMoreButton({ onToggle, readMore, buttonText }: ReadMoreButtonProps) {
+function ReadMoreButton({
+  onToggle,
+  readMore,
+  buttonText,
+}: ReadMoreButtonProps) {
   const handleClick = () => {
     onToggle(!readMore);
   };
@@ -38,7 +42,7 @@ export function ProjetoClubeDeMembros() {
         <h1>Projeto clube de membros</h1>
         <h2>sistema web</h2>
         <Border width={100} color={"#977CED"} />
-        <div className={`text ${readMore ? 'active' : ''}`}>
+        <div className={`text ${readMore ? "active" : ""}`}>
           <p>
             O projeto Gestão de Artes Marciais é um sistema web desenvolvido
             utilizando as tecnologias e frameworks mais modernos do mercado. Ele

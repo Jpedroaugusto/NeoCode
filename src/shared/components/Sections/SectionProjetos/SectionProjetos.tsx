@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 
 import "./projects.scss";
-import "./Projetos/tools/tools.scss"
+import "./Projetos/tools/tools.scss";
 
-import { Description } from "../../Dialog/Description";
+import { Description } from "../../Dialog/Description/Description";
 import { ProjetoArtesMaciais } from "./Projetos/ProjetoArtesMarciais";
 
 export function SectionProjetos() {
@@ -20,7 +20,7 @@ export function SectionProjetos() {
         subtitle={t("ProjectsSectionSubtitle")}
         p=""
       />
-      
+
       <div className="projects">
         <ProjetoArtesMaciais />
         <ProjetoArtesMaciais />

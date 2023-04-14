@@ -1,4 +1,4 @@
-import BorderProps from "../../types/BorderProps";
+import BorderProps from "../../../types/BorderProps";
 
 export function Border({ color, width }: BorderProps) {
   return (
