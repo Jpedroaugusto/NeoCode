@@ -1,4 +1,5 @@
 import { MouseEventHandler } from 'react';
+import { Link } from 'react-router-dom';
 
 type LinkProps = {
   link: string;
@@ -6,12 +7,12 @@ type LinkProps = {
   handleClick: MouseEventHandler<HTMLAnchorElement> | any;
 };
 
-function Link({ link, legend, handleClick }: LinkProps): JSX.Element {
+function vanillaLink({ link, legend, handleClick }: LinkProps): JSX.Element {
   return (
-    <a href={link} onClick={handleClick}>
+    <Link to={link} onClick={handleClick}>
       {legend}
-    </a>
+    </Link>
   );
 }
 
-export default Link;
+export default vanillaLink;
