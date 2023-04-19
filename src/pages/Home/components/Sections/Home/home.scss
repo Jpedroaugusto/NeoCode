@@ -1,0 +1,38 @@
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url('../../../../../assets/images/png/home.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+
+  h1 {
+    text-align: center;
+    width: 10em;
+
+    @media (max-width: 768px) {
+      font-size: 3em;
+      line-height: 50px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 1.8em;
+      line-height: 40px;
+    }
+  }
+
+  a {
+    font: 700 16px/20px uppercase;
+    color: #ffffff;
+
+    @media (max-width: 480px) {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+} 

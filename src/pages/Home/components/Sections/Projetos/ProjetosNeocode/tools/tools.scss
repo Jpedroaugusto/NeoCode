@@ -1,0 +1,22 @@
+.tools {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  flex-direction: column;
+  
+  &__icons {
+    display: flex;
+    column-gap: 15px;
+    
+    &--icon {
+      min-width: 20px;
+      width: 8vw;
+      max-width: 50px;
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

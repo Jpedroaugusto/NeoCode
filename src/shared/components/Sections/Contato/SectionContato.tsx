@@ -8,10 +8,10 @@ export function SectionContato() {
   const { t } = useTranslation();
 
   const schema = Yup.object().shape({
-    name: Yup.string().required("Nome é obrigatório"),
-    email: Yup.string().email("Email inválido").required("Email é obrigatório"),
-    number: Yup.string().required("Número é obrigatório"),
-    message: Yup.string().required("Mensagem é obrigatória"),
+    name: Yup.string().required("nome é obrigatório"),
+    email: Yup.string().email("email inválido").required("email é obrigatório"),
+    number: Yup.string().required("número é obrigatório"),
+    message: Yup.string().required("mensagem é obrigatória"),
   });
 
   const Alert = async (event: React.FormEvent<HTMLFormElement>) => {
